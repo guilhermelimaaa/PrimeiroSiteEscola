@@ -1,0 +1,35 @@
+/* Config CSS Site Trabalho 3?Bimestre */
+
+body,ul{padding:0; margin:0; list-style:none;}
+
+body{background-image:url("imagemfundo.jpg");}
+
+#geral{overflow:hidden;}
+
+#geral #topo{width:1300px; margin:0 auto; overflow:hidden; background-color:#FFFFFF;}
+
+#geral #topo #logo{float:left; width:700px}
+
+#geral #topo #logo a img{border:0; width:400px; height:130px}
+
+#geral #menu{background-color:#FFFFFF; float:left; overflow:hidden; padding:0px; margin-left:142px; width:193px; height:517px;}
+
+#geral #menu li{float:down; padding:30px; margin:0px;}
+
+#geral #menu li:hover{background-color:#008B8B;}
+
+#geral #banner{float:right; margin-right:148px; margin-left:0px; padding:0px; overflow:hidden; background:url("bannerdg.jpg");}
+
+#geral #conteudo{margin:0 auto; background-color:#FFFFFF; padding:0px; width:1300px; overflow:hidden; position:relative;}
+
+#geral #rodape{margin:0 auto; background-color:#FFFFFF; padding:0px; width:1300px; overflow:hidden; position:relative; height:30px;}
+
+ 	
+
+.menu:link{font-family:Fantasy, "Blippo", serif; color:#00BFFF; text-decoration:none; font-size:40px;}
+.menu:visited{font-family:Fantasy, "Blippo", serif; color:#00BFFF; text-decoration:none; font-size:40px;}
+.menu:hover{font-family:Fantasy, "Blippo", serif; color:#00BFFF; text-decoration:underline; font-size:40px;}
+
+.texto{font-family:Monospace, "Courier New"; color:#008B8B; text-decoration:none; font-size:30px;}
+
+.developer{font-family:Trebuchet MS, sans-serif; color:#0000CD; text-decoration:none; font-size:20px;}

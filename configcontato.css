@@ -1,0 +1,112 @@
+*{ margin:0; padding:0;}
+
+body,ul{padding:0; margin:0; list-style:none;}
+
+body{background-image:url("imagemfundo.jpg");}
+
+#geral{overflow:hidden;}
+
+#geral #topo{width:1300px; margin:0 auto; overflow:hidden; background-color:#FFFFFF;}
+
+#geral #topo #logo{float:left; width:700px}
+
+#geral #topo #logo a img{border:0; width:400px; height:130px}
+
+#geral #menu{background-color:#FFFFFF; float:left; overflow:hidden; padding:0px; margin-left:143px; width:194px; height:763px;}
+
+#geral #menu li{float:down; padding:30px; margin:0px;}
+
+#geral #menu li:hover{background-color:#008B8B;}
+
+#geral #rodape{float:left; margin-left:137px; background-color:#FFFFFF; padding:0px; width:1300px; overflow:hidden; position:relative; height:50px;}
+
+
+
+.menu:link{font-family:Fantasy, "Blippo", serif; color:#00BFFF; text-decoration:none; font-size:40px;}
+.menu:visited{font-family:Fantasy, "Blippo", serif; color:#00BFFF; text-decoration:none; font-size:40px;}
+.menu:hover{font-family:Fantasy, "Blippo", serif; color:#00BFFF; text-decoration:underline; font-size:40px;}
+
+.texto{font-family:Monospace, "Courier New"; color:#008B8B; text-decoration:none; font-size:12px;}
+
+.developer{font-family:Trebuchet MS, sans-serif; color:#0000CD; text-decoration:none; font-size:20px;}
+
+
+form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+ 
+#geral div.box {
+    float:right;
+    width:1116px;
+    background:#222222;
+    position:relative;
+    top:0px;
+    border:1px solid #262626;
+	margin-right:128px;
+	padding:0px;
+	overflow:hidden;
+}
+ 
+#geral div.box h1 { 
+    color:#ffffff;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #161712;
+    border-top:1px solid #161712; 
+}
+ 
+#geral div.box label {
+    width:100%;
+	height:160px;
+    display: block;
+    background:#1C1C1C;
+    border-top:1px solid #262626;
+    border-bottom:1px solid #161712;
+    padding:10px 0 10px 0;
+}
+ 
+#geral div.box label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+ 
+#geral div.box .input_text {
+    padding:10px 10px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+ 
+#geral div.box .message{
+    padding:7px 7px;
+    width:350px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+ 
+#geral div.box .button{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:#CC0000;
+    border:0px;
+    position: relative;
+    top:10px;
+    left:382px;
+    width:100px;
+    border-bottom: 1px double #660000;
+    border-top: 1px double #660000;
+    border-left:1px double #FF0033;
+    border-right:1px double #FF0033;
+}
